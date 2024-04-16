@@ -1,0 +1,91 @@
+body {
+    font-family:'Gaegu', sans-serif; ;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 50px;
+    
+}
+
+.tekstbak {
+
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 100px;
+}
+
+p {
+    color: #666;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.datum {
+    color: #b4b4b4;
+    font-style: italic;
+    font-size: 19px;
+    position: fixed;
+    text-align: center;
+    right: 690px;
+    top: 510px;
+}
+
+.naam {
+    color: #939393;
+    font-style: italic;
+    font-size: 30px;
+    position: fixed; /* Zorgt ervoor dat het element vast blijft staan tijdens het scrollen */
+    bottom: -45px; /* Plaatst het element aan de onderkant van het scherm */
+    right: 0; /* Plaatst het element aan de rechterkant van het scherm */
+    padding: 20px;
+} 
+
+.heart:before {
+    content: '♥'; /* Unicode karakter voor een hartje */
+    position: fixed;
+    top: 50px;
+    left: 40px;
+    font-size: 40px;
+    color: pink; /* Kleur van de hartjes */
+    z-index: -1; /* Om ervoor te zorgen dat de hartjes achter de tekst worden weergegeven */
+    text-align: center;
+}
+
+.heart-1:before {
+    top: 40%;
+    left: 10%;
+}
+
+.heart-2:before {
+    top: 70%;
+    left: 65%;
+}
+
+.heart-3:before {
+    top: 80%;
+    left: 84%;
+}
+
+.heart-4:before {
+    top: 80%;
+    left: 20%;
+}
+
+.heart-5:before {
+    top: 35%;
+    left: 35%;
+}
+
+.heart-6:before {
+    top: 40%;
+    left: 92%;
+}
+
+.heart-7:before {
+    top: 50px;
+    left: 85%;
+}
